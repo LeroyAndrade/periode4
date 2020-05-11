@@ -24,4 +24,10 @@ callBack is een functie die je eerder gemaakt hebt.
 De AJAX request die vorige week behandelt is maakt gebruik van GET, je kunt echter ook gegevens versturen met POST.   
 
 Daarvoor verandert er niet heel veel, je moet nu de    
-`request.send()` aanpassen en een requestHeader toevoegen aan je request
+`request.send()` aanpassen en een requestHeader toevoegen aan je request object zodat de server weet om wat voor data het gaat.   
+`request.setRequestHeader(
+         "Content-type",
+         "application/x-www-form-urlencoded"
+     );`
+     
+Hoe je dit kunt doen lees je op [W3SCHOOLS, request post](https://www.w3schools.com/XML/ajax_xmlhttprequest_send.asp) of op
