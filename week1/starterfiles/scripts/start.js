@@ -9,8 +9,8 @@ form.addEventListener('submit', function (event) {
     // TODO: maak de functie af en
     //  haal de gegevens op voor gewicht en lengte uit het formulier.
 
-    const gewicht = ;
-    const lengte = ;
+    // const gewicht = ;
+    // const lengte = ;
 
     const url = createURL(baseUrl, gewicht, lengte);
 

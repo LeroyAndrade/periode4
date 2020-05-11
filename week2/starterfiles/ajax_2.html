@@ -2,9 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ajax Start</title>
+    <title>Ajax POST</title>
+    <link rel="stylesheet" href="styles/start.css">
+    <link rel="stylesheet" href="styles/start.css">
 </head>
 <body>
 
+<form name="form">
+    <fieldset>
+
+        <legend style="float:right">Gegevens versturen met AJAX POST</legend>
+
+        <label for="gewicht">Gewicht:</label>
+        <input type="text" id="gewicht" name="gewicht"><br><br>
+        <label for="lengte">Lengte:</label>
+        <input type="text" id="lengte" name="lengte"><br><br>
+
+        <button type="submit">Verzend</button>
+
+        <h3 id="verzonden"></h3>
+        <h3>Klik op de button Verzend om je gegevens naar de database te verzenden</h3>
+
+    </fieldset>
+
+</form>
+
+<script src="../completed/start.js"></script>
 </body>
 </html>
