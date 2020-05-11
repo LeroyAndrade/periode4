@@ -30,4 +30,4 @@ Daarvoor verandert er niet heel veel, je moet nu de
          "application/x-www-form-urlencoded"
      );`
      
-Hoe je dit kunt doen lees je op [W3SCHOOLS, request post](https://www.w3schools.com/XML/ajax_xmlhttprequest_send.asp) of op
+Hoe je dit kunt doen lees je op [W3SCHOOLS, request post](https://www.w3schools.com/XML/ajax_xmlhttprequest_send.asp) of op [Mozilla Developers Network](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest)
