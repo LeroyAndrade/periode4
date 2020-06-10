@@ -21,3 +21,14 @@ input.placeholder = "Laden van de plaatsnamen ...";
 
 request.open('GET', 'data.php', true);
 request.send();
+
+
+form.addEventListener('submit', function (event) {
+
+	const invoer = document.forms["form"]["invoer"].value;
+	let keuze = document.getElementById('keuze');
+
+	keuze.innerText = 'Je hebt gekozen voor ' + invoer;
+	event.preventDefault();
+
+});
