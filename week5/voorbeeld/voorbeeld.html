@@ -11,12 +11,26 @@
 <div>
 	<h1>Datalist voorbeeld met AJAX</h1>
 
-	<label for="invoer">Kies een plaatsnaam</label>
-	<input type="text" id="invoer" list="lijst" placeholder="steden">
-	<datalist id="lijst"></datalist>
+
+<!--	Dit is voor JavaScript en een addEventListener-->
+	<form name="form">
+
+<!--	Dit is voor het ophalen van een php pagina-->
+<!--	<form action="action.php">-->
+
+		<label for="invoer">Kies een plaatsnaam</label>
+		<input id="invoer" list="lijst" placeholder="steden" type="text">
+		<datalist id="lijst"></datalist>
+
+		<button type="submit">Submit</button>
+
+	</form>
+
 </div>
 
-	<script src="voorbeeld.js"></script>
+<div id="keuze"></div>
+
+<script src="voorbeeld.js"></script>
 
 </body>
 </html>
